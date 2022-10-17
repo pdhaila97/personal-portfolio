@@ -6,6 +6,7 @@ import Project from './Project/Projects';
 import Skills from './Skills/Skill';
 import Achievements from './Achievements/Achievements';
 import './Resume.css';
+
 function Resume(props) {
 
     const { experience, skills, projects, achievements, education } = props;
