@@ -1,0 +1,14 @@
+
+.ftco-footer{
+    font-size: 16px;
+    background: #000000;
+    padding: 7em 0;
+    z-index: 0;
+}
+.ftco-footer h2{
+    color: white;
+}
+.Icons{
+    display: inline;
+    margin: 0 1em;
+}
