@@ -8,6 +8,7 @@ import CodeIcon from '@material-ui/icons/Code';
 const Contact = (props) =>{
 
     const { aboutMe = {} } = props;
+    
     return(
         <Container id="contactMe">
                     <div className="row justify-content-center mb-5 pb-3">
