@@ -35,7 +35,7 @@ function Middle(props) {
                                 <li><span className="field"> Address : </span> {aboutMe === null ? <LineShimmer styles={{ width: "50%", height: "1.2em" }} /> : <span className="answer">{aboutMe.address}</span>}</li>
                                 <li><span className="field"> Email : </span> <span className="answer">{aboutMe === null ? <LineShimmer styles={{ width: "50%", height: "1.2em" }} /> : aboutMe.email}</span></li>
                             </ul>
-                            <div className="about-info">
+                            <div className="btn-container">
                                 <Button size="lg" onClick={getResumeUrl} > Download CV </Button>
                             </div>
                         </div>

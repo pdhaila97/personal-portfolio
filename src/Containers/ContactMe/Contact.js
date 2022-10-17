@@ -10,39 +10,39 @@ const Contact = (props) =>{
     const { aboutMe = {} } = props;
     
     return(
-        <Container id="contactMe">
+        <Container id="contactMe" style={{paddingTop: '82px'}}>
                     <div className="row justify-content-center mb-5 pb-3">
                         <div className="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
                             <h1> Contact Me </h1>
                         </div>
                     </div>
                     <div className="row d-flex contact-info mb-5">
-                        <div className="col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
-                            <div className="align-self-stretch box text-center p-4 shadow">
+                        <div className="mb-3 col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
+                            <div style={{borderRadius: '12px'}} className="align-self-stretch box text-center p-4 shadow">
 
                                 <MailIcon style={{ fontSize: 45}}/>
                                 <h3 className="mb-4">Email Address</h3>
                                 <p><a href={`mailto:${aboutMe.email}`}>{aboutMe.email}</a></p>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
-                            <div className="align-self-stretch box text-center p-4 shadow">
+                        <div className="mb-3 col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
+                            <div style={{borderRadius: '12px'}} className="align-self-stretch box text-center p-4 shadow">
 
                                 <LinkedInIcon color="primary" style={{ fontSize: 45}}/>
                                 <h3 className="mb-4"> LinkedIn </h3>
                                 <p><a target='_blank' rel="noopener noreferrer" href={aboutMe.linkedInUrl}>{aboutMe.name}</a></p>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
-                            <div className="align-self-stretch box text-center p-4 shadow">
+                        <div className="mb-3 col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
+                            <div style={{borderRadius: '12px'}} className="align-self-stretch box text-center p-4 shadow">
 
                                 <GitHubIcon style={{ fontSize: 45}}/>
                                 <h3 className="mb-4"> Github </h3>
                                 <p><a target='_blank' rel="noopener noreferrer" href={aboutMe.githubUrl}>{aboutMe.name}</a></p>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
-                            <div className="align-self-stretch box text-center p-4 shadow">
+                        <div className="mb-3 col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
+                            <div style={{borderRadius: '12px'}} className="align-self-stretch box text-center p-4 shadow">
 
                                 <CodeIcon style={{ fontSize: 45}}/>
                                 <h3 className="mb-4"> Codechef </h3>

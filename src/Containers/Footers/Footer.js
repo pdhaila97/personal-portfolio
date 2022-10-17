@@ -15,20 +15,22 @@ const footer = props => {
         <footer className="ftco-footer">
             <Container>
                 <Row>
-                    <Col md={5}>
-                        <h2>About</h2>
-                        <div className="Icons"><a href={`mailto:${aboutMe.email}`}><MailIcon style={{ fontSize: 45, color: "white" }} /></a></div>
-                        <div className="Icons"><a href={aboutMe.linkedInUrl}><LinkedInIcon style={{ fontSize: 45, color: "white" }} /></a></div>
-                        <div className="Icons"><a href={aboutMe.githubUrl}><GitHubIcon style={{ fontSize: 45, color: "white" }} /></a></div>
-                        <div className="Icons"><a href={aboutMe.codechefUrl}><CodeIcon style={{ fontSize: 45, color: "white" }} /></a></div>
+                    <Col md={5} style={{marginBottom: '24px'}}>
+                        <h4>About</h4>
+                        <div className='icons-container'>
+                            <div className="Icons"><a href={`mailto:${aboutMe.email}`}><MailIcon style={{ fontSize: 45, color: "white" }} /></a></div>
+                            <div className="Icons"><a href={aboutMe.linkedInUrl}><LinkedInIcon style={{ fontSize: 45, color: "white" }} /></a></div>
+                            <div className="Icons"><a href={aboutMe.githubUrl}><GitHubIcon style={{ fontSize: 45, color: "white" }} /></a></div>
+                            <div className="Icons"><a href={aboutMe.codechefUrl}><CodeIcon style={{ fontSize: 45, color: "white" }} /></a></div>
+                        </div>
                     </Col>
                     <Col md={2}>
 
                     </Col>
                     <Col md={5}>
-                        <h2>Have any Questions?</h2>
+                        <h4>Have any Questions?</h4>
                         <div className="Icons">
-                            <span style={{ display: "flex" }}><MailIcon style={{ fontSize: 45, color: "white", marginRight: "15px" }}></MailIcon><h3><a href={`mailto:${aboutMe.email}`}> {aboutMe.email} </a></h3></span>
+                            <span style={{ display: "flex", alignItems: "center" }}><MailIcon style={{ fontSize: 45, color: "white", marginRight: "15px" }}></MailIcon><h5><a href={`mailto:${aboutMe.email}`}> {aboutMe.email} </a></h5></span>
 
                         </div>
 

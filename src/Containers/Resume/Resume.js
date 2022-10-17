@@ -15,7 +15,7 @@ function Resume(props) {
             <div className="Resume-Outer" id="resume">
                 <Container>
                     <Row>
-                        <Col md={3}>
+                        <Col md={3} className='navigation' style={{marginBottom: "48px"}}>
                             <Nav id="navi">
                                 <ul>
                                     <li> <a href="#workExperience"> Work Experience </a> </li>

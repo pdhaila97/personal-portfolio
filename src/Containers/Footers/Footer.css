@@ -2,13 +2,20 @@
 .ftco-footer{
     font-size: 16px;
     background: #000000;
-    padding: 7em 0;
+    padding: 32px 16px;
     z-index: 0;
 }
-.ftco-footer h2{
+
+.ftco-footer h4{
     color: white;
 }
+
+.icons-container {
+    display: flex;
+    justify-content:space-between;
+}
+
 .Icons{
     display: inline;
-    margin: 0 1em;
+    margin-right: 16px;
 }

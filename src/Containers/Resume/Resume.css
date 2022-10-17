@@ -1,4 +1,3 @@
-
 nav {
 	display: block;
 }
@@ -20,13 +19,15 @@ a:hover {
 }
 
 @media print {
+
 	*,
 	*::before,
 	*::after {
-		text-shadow: none!important;
-		-webkit-box-shadow: none!important;
-		box-shadow: none!important;
+		text-shadow: none !important;
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
 	}
+
 	a:not(.btn) {
 		text-decoration: underline;
 	}
@@ -43,7 +44,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	color: #3e64ff;
-	outline: none!important;
+	outline: none !important;
 }
 
 #navi {
@@ -87,43 +88,52 @@ a:focus {
 	transform: translateY(-50%);
 	background: #3e64ff;
 }
-.Resume-Outer{
-    padding-top: 7em;
-}
-.sub-heading{
-    font-weight: 800;
-    font-size: 30px;
-    margin-bottom: 30px;
-    color: rgb(62, 100, 255);
-}
-.Date{
-	margin-left: 3%;
-    font-weight: 700;
-    font-size: 16px;
-    color: #3e64ff;
+
+.Resume-Outer {
+	padding-top: 82px;
 }
 
-.Resume-Outer h2{
-	font-size: 24px;
-    font-weight: 700;
-    /* margin-left: 9%; */
-    color: black;
-    font-family: system-ui;
+.sub-heading {
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: rgb(62, 100, 255);
 }
-.Company{
+
+.Date {
+	margin-left: 3%;
+	font-weight: 700;
+	font-size: 16px;
+	color: #3e64ff;
+}
+
+.Resume-Outer h2 {
+	font-size: 24px;
+	font-weight: 700;
+	/* margin-left: 9%; */
+	color: black;
+	font-family: system-ui;
+}
+
+.Company {
 	color: #3e64ff;
 	font-weight: 700;
-    font-size: 16px;
+	font-size: 16px;
 }
-.Resume-Outer p{
+
+.Resume-Outer p {
 
 	margin-top: 1%;
-    /* margin-bottom: 3rem; */
-}
-.Resume-Outer{
-	margin-bottom: 10rem;
+	/* margin-bottom: 3rem; */
 }
 
-#navi.li a:hover li a:active{
+#navi.li a:hover li a:active {
 	color: white;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.navigation {
+		display: none;
+	}
 }
