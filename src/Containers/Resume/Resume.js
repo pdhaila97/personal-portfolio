@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Container, Row, Col, Nav } from 'react-bootstrap';
 import WorkExperience from './WorkEx/Experiences';
 import Education from './Education/Educations';

@@ -1,7 +1,6 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Container, Row, Col, Media, Image, Button } from 'react-bootstrap';
-import Profile from '../../Assets/Images/Profile-2.jpg';
-import axios from '../../axios';
+import Profile from '../../Assets/Images/profile.jpg';
 import LineShimmer from '../../UI/Shimmer/Shimmer';
 import './Middle.css';
 function Middle(props) {

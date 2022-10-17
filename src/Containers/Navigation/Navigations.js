@@ -3,7 +3,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Media from 'react-bootstrap/Media';
 import Container from 'react-bootstrap/Container';
-import CodeIcon from '@material-ui/icons/Code';
 
 class Navigation extends Component{
 
@@ -17,7 +16,7 @@ class Navigation extends Component{
                     <Container>
                         <Navbar.Brand href="#home">
                             <Media>
-                            <img width={50} height={50} src={'favicon.png'} />
+                            <img alt="logo icon" width={50} height={50} src={'favicon.png'} />
                             </Media>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

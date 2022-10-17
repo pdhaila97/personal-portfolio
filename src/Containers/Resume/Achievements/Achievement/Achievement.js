@@ -7,7 +7,7 @@ const achievement = (props) =>{
             <CardGiftcardTwoToneIcon color="primary" style={{ fontSize: 45}}/>
             <span className="Date">{props.date}</span>
             <div>
-                <h4>{props.about}</h4>
+                <p>{props.about}</p>
             </div>
         </div>
     );

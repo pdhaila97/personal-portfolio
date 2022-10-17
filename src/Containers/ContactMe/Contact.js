@@ -29,7 +29,7 @@ const Contact = (props) =>{
 
                                 <LinkedInIcon color="primary" style={{ fontSize: 45}}/>
                                 <h3 className="mb-4"> LinkedIn </h3>
-                                <p><a target='_blank' href={aboutMe.linkedInUrl}>{aboutMe.name}</a></p>
+                                <p><a target='_blank' rel="noopener noreferrer" href={aboutMe.linkedInUrl}>{aboutMe.name}</a></p>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
@@ -37,7 +37,7 @@ const Contact = (props) =>{
 
                                 <GitHubIcon style={{ fontSize: 45}}/>
                                 <h3 className="mb-4"> Github </h3>
-                                <p><a target='_blank' href={aboutMe.githubUrl}>{aboutMe.name}</a></p>
+                                <p><a target='_blank' rel="noopener noreferrer" href={aboutMe.githubUrl}>{aboutMe.name}</a></p>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
@@ -45,7 +45,7 @@ const Contact = (props) =>{
 
                                 <CodeIcon style={{ fontSize: 45}}/>
                                 <h3 className="mb-4"> Codechef </h3>
-                                <p><a target='_blank' href={aboutMe.codechefUrl}>{aboutMe.name}</a></p>
+                                <p><a target='_blank' rel="noopener noreferrer" href={aboutMe.codechefUrl}>{aboutMe.name}</a></p>
                             </div>
                         </div>
                     </div>
