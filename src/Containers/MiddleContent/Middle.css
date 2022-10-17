@@ -42,7 +42,7 @@
 
 @media only screen and (max-width: 767px) {
     .intro-Info{
-        padding-top: 56px;
+        padding: 56px 24px 0 !important;
     }
     
     #aboutMe{

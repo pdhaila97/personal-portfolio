@@ -26,7 +26,7 @@ function Resume(props) {
                                 </ul>
                             </Nav>
                         </Col>
-                        <Col md={9}>
+                        <Col md={9} className='details'>
                             <WorkExperience experience={experience} />
                             <Education education={education} />
                             <Project projects={projects} />

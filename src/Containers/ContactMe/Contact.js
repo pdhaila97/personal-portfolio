@@ -16,7 +16,7 @@ const Contact = (props) =>{
                             <h1> Contact Me </h1>
                         </div>
                     </div>
-                    <div className="row d-flex contact-info mb-5">
+                    <div className="row d-flex contact-info mb-5 px-2">
                         <div className="mb-3 col-md-6 col-lg-3 ftco-animate fadeInUp ftco-animated">
                             <div style={{borderRadius: '12px'}} className="align-self-stretch box text-center p-4 shadow">
 

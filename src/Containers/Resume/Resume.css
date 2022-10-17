@@ -136,4 +136,8 @@ a:focus {
 	.navigation {
 		display: none;
 	}
+
+	.details {
+		padding: 0 24px !important;
+	}
 }
