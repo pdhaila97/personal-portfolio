@@ -14,7 +14,7 @@ function Middle(props) {
         <Fragment>
             <Container id="aboutMe">
                 <Row>
-                    <Col md={6} className="p-0 d-none d-lg-block">
+                    <Col md={6} className="p-0 d-lg-block">
                         <Media>
                             <Image src={Profile} fluid rounded></Image>
                         </Media>

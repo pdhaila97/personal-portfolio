@@ -18,7 +18,7 @@ function App() {
         setConfig(response.data);
       }).catch(error => {
         console.log(error);
-      })
+      });
   }, []);
 
   if(Object.keys(config).length === 0 ) {
