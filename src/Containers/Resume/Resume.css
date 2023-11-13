@@ -93,6 +93,10 @@ a:focus {
 	padding-top: 82px;
 }
 
+#navi li a {
+	cursor: pointer;
+}
+
 .sub-heading {
 	font-weight: 800;
 	font-size: 30px;
